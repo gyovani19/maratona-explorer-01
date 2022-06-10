@@ -15,15 +15,27 @@ function response() {
  
   
   var list = [
-      "Talvez sim, talvez não...",
-      "As imagens revelam que sim...",
-      "Talvez isso não se concretize",
-      "Sim!",
-      "Não!",
-      "Minhas fontes dizem que sim...",
-      "Minhas fontes dizem que não..."
+   'Certeza!',
+  'Não tenho tanta certeza.',
+  'É decididamente assim.',
+  'Não conte com isso.',
+  'Sem dúvidas!',
+  'Pergunte novamente mais tarde.',
+  'Sim, definitivamente!',
+  'Minha resposta é não.',
+  'Você pode contar com isso.',
+  'Melhor não te dizer agora.',
+  'A meu ver, sim.',
+  'Minhas fontes dizem não.',
+  'Provavelmente.',
+  'Não é possível prever agora.',
+  'Perspectiva boa.',
+  'As perspectivas não são tão boas.',
+  'Sim.',
+  'Concentre-se e pergunte novamente.',
+  'Sinais apontam que sim.'
   ];
-  var number = Math.floor(Math.random()*7);
+  var number = Math.floor(Math.random()*19);
   
   document.getElementById("response").innerHTML = pergunta + list[number];
   
